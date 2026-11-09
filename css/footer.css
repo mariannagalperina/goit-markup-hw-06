@@ -38,6 +38,10 @@
   letter-spacing: 0.02em;
 }
 
+.footer-social {
+  width: 100%;
+}
+
 .footer-social-title,
 .footer-subscribe-title {
   margin-bottom: 16px;
@@ -51,6 +55,7 @@
 
 .footer-social-list {
   display: flex;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -154,6 +159,14 @@
   .footer-social-title,
   .footer-subscribe-title {
     text-align: left;
+  }
+
+  .footer-social {
+    width: auto;
+  }
+
+  .footer-social-list {
+    justify-content: flex-start;
   }
 
   .footer-subscribe {
